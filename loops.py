@@ -49,3 +49,15 @@ if prime:
     print("Prime number")
 else:
     print("Not a prime number")
+
+    # Program 6: Reverse a number
+
+n = int(input("Enter a number: "))
+reverse = 0
+
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+
+print("Reversed number =", reverse)
