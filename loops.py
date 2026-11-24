@@ -72,3 +72,12 @@ while n > 0:
     count += 1
 
 print("Number of digits =", count)
+
+# Program 8: Sum of even numbers between 1-100
+
+sum = 0
+
+for i in range(2, 101, 2):
+    sum = sum + i
+
+print("Sum of even numbers =", sum)
