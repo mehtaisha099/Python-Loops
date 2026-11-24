@@ -20,3 +20,14 @@ for i in range(1, n + 1):
     fact = fact * i
 
 print("Factorial =", fact)
+
+# Program 4: Generate the first N Fibonacci numbers
+
+n = int(input("Enter N: "))
+
+a = 0
+b = 1
+
+for i in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
